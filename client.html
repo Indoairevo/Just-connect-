@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project workspace - Nexora</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="client-page">
+    <main class="client-shell">
+      <header class="client-header"><a class="logo" href="/"><span class="logo-mark"><span></span><span></span><span></span></span><span>NEXORA<span class="logo-dot">.</span></span></a><span class="client-label">Private project workspace</span></header>
+      <section id="client-loading" class="client-state">Loading your project...</section>
+      <section id="client-error" class="client-state error" hidden>We could not find this project link.</section>
+      <section id="client-project" hidden>
+        <div class="client-hero"><p class="eyebrow"><span class="eyebrow-line"></span> Your project</p><h1 id="client-name">Project workspace</h1><p id="client-service" class="client-service"></p><div class="client-progress"><div class="progress-heading"><span id="client-status">Not started</span><strong id="client-progress-value">0%</strong></div><div class="progress-track"><span id="client-progress-bar"></span></div></div></div>
+        <div class="client-grid"><article class="client-card"><p class="card-kicker">Project details</p><h2>What we are building</h2><p id="client-deliverables" class="client-copy"></p><div class="client-meta"><div><span>Timeline</span><strong id="client-estimate">-</strong></div><div><span>Deadline</span><strong id="client-deadline">-</strong></div><div><span>Revisions</span><strong id="client-revisions">-</strong></div></div><div class="payment-summary"><span>Payment</span><strong id="client-payment">-</strong></div></article><article class="client-card client-card-dark"><p class="card-kicker">Next step</p><h2 id="client-next-title">We are getting started.</h2><p id="client-notes" class="client-copy"></p><a id="client-delivery" class="button button-primary" href="#" target="_blank" rel="noreferrer" hidden>Open delivery <span>↗</span></a></article><article class="client-card response-card"><p class="card-kicker">Your response</p><h2>Ready to move forward?</h2><form id="client-response-form"><label>Response<select id="client-response"><option value="accepted">Accept proposal</option><option value="changes_requested">Request changes</option><option value="declined">Decline proposal</option></select></label><label>Message<textarea id="client-response-message" rows="3" placeholder="Add a note for the team..."></textarea></label><button class="button button-primary" type="submit">Send response <span>↗</span></button><p id="client-response-status" class="form-status" role="status" aria-live="polite"></p></form></article></div>
+      </section>
+    </main>
+    <script src="client.js"></script>
+  </body>
+</html>

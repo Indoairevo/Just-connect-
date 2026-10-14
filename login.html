@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Admin login — Nexora</title><link rel="stylesheet" href="styles.css" /></head>
+  <body class="auth-page">
+    <main class="auth-card">
+      <a class="logo" href="/"><span class="logo-mark"><span></span><span></span><span></span></span><span>NEXORA<span class="logo-dot">.</span></span></a>
+      <p class="eyebrow"><span class="eyebrow-line"></span> Private workspace</p>
+      <h1>Welcome<br /><em>back.</em></h1>
+      <p class="auth-intro">Sign in to view and manage your project inquiries.</p>
+      <form id="login-form" class="auth-form">
+        <label>Email<input name="email" type="email" autocomplete="username" required placeholder="you@company.com" /></label>
+        <label>Password<input name="password" type="password" autocomplete="current-password" required placeholder="••••••••••••" /></label>
+        <button class="button button-primary" type="submit">Sign in <span>↗</span></button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <a class="back-link" href="/">← Back to website</a>
+    </main>
+    <script src="auth.js"></script>
+  </body>
+</html>

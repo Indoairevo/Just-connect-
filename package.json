@@ -1,0 +1,12 @@
+{
+  "name": "nexora-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nexora digital growth studio website and lead capture API",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
