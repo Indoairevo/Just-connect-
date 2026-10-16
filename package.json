@@ -4,9 +4,25 @@
   "private": true,
   "description": "Nexora digital growth studio website and lead capture API",
   "scripts": {
-    "start": "node server.js"
+    "dev": "concurrently \"node server.js\" \"next dev\"",
+    "build": "next build",
+    "start": "concurrently \"node server.js\" \"next start\"",
+    "api": "node server.js"
   },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.2",
+    "concurrently": "^9.1.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "next": "^14.2.15",
+    "postprocessing": "^6.39.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
   }
 }
